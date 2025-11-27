@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Kotlin-1.9-purple?logo=kotlin" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Swift-5.9-orange?logo=swift" alt="Swift"/>
   <img src="https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License"/>
 </p>
 
 ## 📖 Overview
@@ -95,11 +94,6 @@ npm run test:e2e:ios     # E2E iOS
 npm run test:e2e:android # E2E Android
 ```
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE)
-
-## 👨‍💻 Author
 
 **Senior Mobile Developer** - Demonstrating expertise in:
 - React Native & Cross-Platform Development
