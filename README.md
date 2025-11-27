@@ -93,7 +93,9 @@ npm run test:coverage    # With coverage
 npm run test:e2e:ios     # E2E iOS
 npm run test:e2e:android # E2E Android
 ```
+## 👩‍💻 Author
 
+### Farnaz Nasehi
 
 **Senior Mobile Developer** - Demonstrating expertise in:
 - React Native & Cross-Platform Development
