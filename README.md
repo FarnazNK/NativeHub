@@ -1,4 +1,4 @@
-# 🚀 NativeHub - Advanced React Native Showcase
+#  NativeHub - Advanced React Native Showcase
 
 <p align="center">
   <img src="https://img.shields.io/badge/React_Native-0.73-blue?logo=react" alt="React Native"/>
@@ -7,19 +7,18 @@
   <img src="https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript" alt="TypeScript"/>
 </p>
 
-## 📖 Overview
+##  Overview
 
 **NativeHub** is an open-source React Native application demonstrating senior-level mobile development expertise with custom native modules for Android (Kotlin) and iOS (Swift).
 
 ### Key Features
 
-- 🔐 **Biometric Authentication** - Native Face ID/Touch ID & Android BiometricPrompt
-- 📊 **Performance Monitoring** - Custom native performance metrics collection
-- 💾 **Secure Storage** - Encrypted data persistence using Keychain/Keystore
-- 🎨 **Adaptive UI** - Dynamic theming with dark/light mode support
+-  **Biometric Authentication** - Native Face ID/Touch ID & Android BiometricPrompt
+-  **Performance Monitoring** - Custom native performance metrics collection
+-  **Secure Storage** - Encrypted data persistence using Keychain/Keystore
+-  **Adaptive UI** - Dynamic theming with dark/light mode support
 
-## 🏗️ Architecture
-
+##  Architecture
 ```
 NativeHub/
 ├── src/
@@ -41,11 +40,10 @@ NativeHub/
 └── __tests__/               # Test suites
 ```
 
-## 🚀 Installation
-
+##  Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/NativeHub.git
+git clone https://github.com/FarnazNK/NativeHub.git
 cd NativeHub
 
 # Install dependencies
@@ -59,13 +57,12 @@ npm run ios
 npm run android
 ```
 
-## 🔧 Native Modules
+##  Native Modules
 
 ### Biometric Authentication
 
-**Android (Kotlin)** - Uses BiometricPrompt API
+**Android (Kotlin)** - Uses BiometricPrompt API  
 **iOS (Swift)** - Uses LocalAuthentication framework
-
 ```typescript
 import { Biometric } from './native-modules';
 
@@ -76,7 +73,6 @@ const result = await Biometric.authenticate({
 ```
 
 ### Performance Monitoring
-
 ```typescript
 import { Performance } from './native-modules';
 
@@ -85,20 +81,22 @@ console.log('CPU:', metrics.cpuUsage);
 console.log('Memory:', metrics.memoryUsage);
 ```
 
-## 🧪 Testing
-
+##  Testing
 ```bash
 npm run test:unit        # Unit tests
 npm run test:coverage    # With coverage
 npm run test:e2e:ios     # E2E iOS
 npm run test:e2e:android # E2E Android
 ```
+
+---
+
 ## 👩‍💻 Author
 
 ### Farnaz Nasehi
 
-**Senior Mobile Developer** - Demonstrating expertise in:
-- React Native & Cross-Platform Development
-- Native Android Development (Kotlin/Java)
-- Native iOS Development (Swift/Objective-C)
-- Mobile Architecture & Performance Optimization
+**Expertise:**
+-  React Native & Cross-Platform Development
+-  Native Android Development (Kotlin/Java)
+-  Native iOS Development (Swift/Objective-C)
+-  Mobile Architecture & Performance Optimization
