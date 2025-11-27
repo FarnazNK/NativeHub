@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+build/
+.gradle/
+*.keystore
+ios/Pods/
+*.xcuserstate
+DerivedData/
+coverage/
+.env
